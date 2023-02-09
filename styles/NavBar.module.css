@@ -1,0 +1,64 @@
+.navWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.backBtn{
+    font-family:  var(--font-mono);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.16em;
+    text-align: left; 
+}
+.backBtn:hover{
+    padding-bottom: 3px;
+    transition: 0.25s;
+}
+
+.logo p:nth-of-type(1){
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    padding-bottom: 16px;
+}
+.logo p:nth-of-type(2){
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    text-align: center;
+
+}
+.MenuIcon{
+    padding: 12px 14px;
+    background-color: #333333;
+    cursor: pointer;
+}
+.MenuIcon:hover{
+    background-color: black;
+}
+
+@media (max-width: 500px) {
+    .logo p:nth-of-type(1){
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .logo p:nth-of-type(2){
+        font-size: 16px;
+        line-height: 16px; 
+    }
+    .MenuIcon{
+        padding: 8px 10px;
+
+    }
+    .backBtn{
+        font-size: 12px;
+        
+    }
+}
